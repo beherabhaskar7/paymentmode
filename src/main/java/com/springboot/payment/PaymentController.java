@@ -93,4 +93,9 @@ public class PaymentController {
 		return CheckSumServiceHelper.getCheckSumServiceHelper().genrateCheckSum( paytmDetails.getMerchantKey(), parameters);
 	}
 	
+	public void addmethod(){
+		
+	System.out.println("new method");
+	
+	}
 }
